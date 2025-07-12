@@ -40,6 +40,15 @@ body {
   margin-bottom: 12px;
 }
 
+.primary-btn {
+  background-color: #006a50;
+  color: #fff;
+  padding: 13px 26px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+}
+
 /* nav starts */
 
 nav {
@@ -206,4 +215,115 @@ nav button {
   font-size: 16px;
   font-weight: 500px;
   border: 4px;
+}
+
+/* resent news starts */
+.news-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.news-card {
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+  background-color: #fff;
+  border-radius: 24px;
+}
+#news-img {
+  width: 408px;
+  height: 306px;
+}
+.card-items h4 {
+  font-size: 32px;
+  font-weight: bold;
+}
+/* donate today starts */
+
+.donate-card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.donate-card {
+  padding: 40px;
+  border: none;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #fff;
+}
+.donate input {
+  display: block;
+  text-align: center;
+  margin: 32px auto;
+  padding: 20px 422px;
+  border: none;
+  border-radius: 4px;
+}
+/* subscribe section starts here */
+.subscribe {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 265px;
+}
+.subscribe h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.email {
+  display: flex;
+}
+
+.email input[type="email"] {
+  width: 560px;
+  padding: 18px 40px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.email input[type="email"]::placeholder {
+  font-size: 16px;
+}
+.email input[type="submit"] {
+  padding: 17px 34px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+}
+
+.email input:focus {
+  outline: none;
+}
+/* footer starts */
+footer {
+  background-color: #ffff;
+  text-align: center;
+  margin-top: 80px;
+  padding: 50px 10px;
+}
+
+footer h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer hr {
+  width: 60%;
+  margin: 24px auto;
+  border: none;
+  border-top: 1px solid #cdcc;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+  cursor: pointer;
 }
